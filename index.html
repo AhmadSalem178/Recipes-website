@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Recipes</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="filter.html">Filter</a></li>
+        <li><a href="drinks.html" target="_blank">Drinks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+       
+      </ul>
+    </nav>
+    <section></section>
+    
+      <header>
+        <h1>Recipe Categories</h1>
+        
+    </header>
+    
+
+    <main>
+
+      <p>
+        Welcome to our recipe website! Here you can explore a variety of
+        delicious recipes and discover new culinary experiences. Whether you're
+        a seasoned chef or just starting out, our collection of recipes caters
+        to all skill levels and tastes. From quick and easy meals to gourmet
+        dishes, we have something for everyone. Join our community of food
+        lovers and share your favorite recipes with us. Let's embark on a
+        flavorful journey together!
+      </p>
+     
+      <label for="mealName"></label>
+      <input
+        type="text"
+        id="mealName"
+        name="mealName"
+        placeholder="Enter Meal Name"
+      />
+      <button onclick="fetchMealDetails()">Search</button>
+      <br />
+     
+
+      <br /><br />
+
+      <div id="recipesdiv" class="recipesdiv">
+        
+      </div>
+     
+    </main>
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>RECIPES</h3>
+          <a
+            class="location"
+            href="https://www.google.com/maps"
+            target="_blank"
+          >
+            <ion-icon name="location-outline"></ion-icon>
+            Jordan,Jo
+          </a>
+
+          <a class="phone" href="https://www.truecaller.com/" target="_blank">
+            <ion-icon name="call-outline"></ion-icon>
+            +962797802556
+          </a>
+
+          <a
+            class="email"
+            href="https://mail.google.com/mail/u/0/#inbox"
+            target="_blank"
+          >
+            <ion-icon name="mail-outline"></ion-icon>
+            Email:Shortcut@gmail.com
+          </a>
+        </div>
+        <div class="Contact">
+          <h3>Contact</h3>
+        </div>
+
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><ion-icon name="logo-facebook"></ion-icon> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/" target="_blank"
+                ><ion-icon name="logo-twitter"></ion-icon> Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><ion-icon name="logo-instagram"></ion-icon> Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.pinterest.com/" target="_blank"
+                ><ion-icon name="logo-pinterest"></ion-icon> Pinterest</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy; 2024 - Recipes Website. All rights reserved.Designed
+          by <span>Ahmad Salem</span>
+        </p>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

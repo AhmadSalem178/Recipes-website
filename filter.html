@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Filter</title>
+  <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Recipes</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="filter.html">Filter</a></li>
+          <li><a href="drinks.html" target="_blank">Drinks</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+      <section></section>
+      <div class="custom-shape-divider-bottom-1713636481">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+   
+    <h1>Meal Filter</h1>
+    
+    <div class="search-container">
+        <input type="text" id="searchAreaInput" placeholder="Filter by Area=nationality">
+        <button onclick="fetchMealsByArea()">Filter</button>
+      </div>
+    <div id="recipesdiv">
+        <!--this app will displayed  meals here-->
+    </div>
+  </div>
+  <div id="mealModal">
+    <div id="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="mealDetails">
+            <!--details of the selected meal will be shown in this area -->
+        </div>
+    </div>
+</div>
+<div id="catdiv" class="catdiv">
+    <!-- Categories will be displayed here -->
+  </div>
+  <div id="MealsDiv">
+    <!-- Categories will be displayed here -->
+  </div>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>RECIPES</h3>
+        <a
+          class="location"
+          href="https://www.google.com/maps"
+          target="_blank"
+        >
+          <ion-icon name="location-outline"></ion-icon>
+          Jordan,Jo
+        </a>
+
+        <a class="phone" href="https://www.truecaller.com/" target="_blank">
+          <ion-icon name="call-outline"></ion-icon>
+          +962797802556
+        </a>
+
+        <a
+          class="email"
+          href="https://mail.google.com/mail/u/0/#inbox"
+          target="_blank"
+        >
+          <ion-icon name="mail-outline"></ion-icon>
+          Email:Shortcut@gmail.com
+        </a>
+      </div>
+      <div class="Contact">
+        <h3>Contact</h3>
+      </div>
+
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><ion-icon name="logo-facebook"></ion-icon> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/" target="_blank"
+              ><ion-icon name="logo-twitter"></ion-icon> Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><ion-icon name="logo-instagram"></ion-icon> Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/" target="_blank"
+              ><ion-icon name="logo-pinterest"></ion-icon> Pinterest</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright &copy; 2024 - Recipes Website. All rights reserved.Designed
+        by <span>Ahmad Salem</span>
+      </p>
+    </div>
+  </footer>
+  <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  <script src="filter.js"></script>
+</body>
+</html>
