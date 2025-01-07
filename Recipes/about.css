@@ -1,0 +1,262 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ff7c18;
+}
+
+/* this is for nvar style */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #fff;
+}
+
+.logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background-color: #ff7c18;
+  border-radius: 6px;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1510629954389-c1e0da47d414?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+/*  */
+/* https://images.unsplash.com/photo-1708335583165-57aa131a4969?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+
+/* this is footer style */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 1rem 1;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+
+.footer-column {
+  flex-basis: 25%;
+  padding: 0 1rem;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ff7c18;
+  margin-left: 70px;
+}
+
+.footer-column p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 70px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+.copyright {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #1c1c1c;
+  margin-top: 2rem;
+}
+
+.copyright p {
+  margin: 0;
+  color: #ff7c18;
+}
+
+.copyright span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+.Contact {
+  color: #ff7c18;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.location {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  line-height: 2;
+  margin-left: 70px;
+  
+}
+
+.location :hover{
+  color: aqua;
+}
+
+.phone {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  line-height: 2;
+  margin-left: 70px;
+  
+}
+
+.phone :hover{
+  color: aqua;
+}
+
+.email {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  line-height: 2;
+  margin-left: 70px;
+}
+
+.email :hover{
+  color: aqua;
+}
+
+.custom-shape-divider-bottom-1712456097 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1712456097 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 158px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1712456097 .shape-fill {
+  fill: #ff7c18;
+}
+
+.img {
+  border-radius: 25% 25% 60% 40% / 25% 23% 55% 75%;
+  width: 450px;
+  margin-left: 790px;
+  margin-top: 100px;
+}
+
+.story h3 {
+  color: #000000;
+  position: absolute;
+  margin-bottom: 5%;
+  margin-left: 400px;
+  font-size: xx-large;
+  top: 750px;
+  letter-spacing: 2px;
+}
+
+.story p {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  position: absolute;
+  margin-left: 220px;
+  margin-right: 500px;
+  font-weight: lighter;
+  top: 820px;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  
+}
+
+.img2 {
+  border-radius: 75% 25% 25% 75% / 34% 25% 75% 66%;
+  /* border-radius: 30% 70% 24% 76% / 43% 32% 68% 57%; */
+  width: 350px;
+  margin-right: 790px;
+  margin-top: 100px;
+  height: 450px;
+}
+
+.mission h3 {
+  color: #000000;
+  position: absolute;
+  margin-bottom: 5%;
+  margin-left: 620px;
+  font-size: xx-large;
+  top: 1180px;
+  letter-spacing: 1px;
+}
+
+.mission p {
+  color: rgb(255, 255, 255);
+  text-align: justify;
+  position: absolute;
+  margin-left: 500px;
+  margin-right: 300px;
+  font-weight: lighter;
+  top: 1250px;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
